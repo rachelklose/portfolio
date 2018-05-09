@@ -19,6 +19,7 @@
     <link href="common-css/fluidbox.min.css" rel="stylesheet">
     <link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
     <link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap and Font Awesome css-->
     <!-- we use cdn but you can also include local files located in css directory-->
@@ -48,13 +49,13 @@
 
 
     <!-- intro-->
-    <section id="intro" style="background-image: url('img/rachel.png');" class="intro">
+    <section id="intro" style="background-image: url('img/top.png');" class="intro">
       <div class="overlay"></div>
       <div class="content">
         <div class="container clearfix">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-12">
-              <h1>Rachel Klose Portfolio Website</h1>
+              <h1>Rachel Klose Personal Website</h1>
             </div>
           </div>
         </div>
@@ -106,7 +107,7 @@
 
 
     <!--portfolio start-->
-    <section class="portfolio-section section">
+    <section class="portfolio-section section" id="portfolio">
   		<div class="container">
   			<div class="row">
   				<div class="col-sm-4">
@@ -117,9 +118,9 @@
   				</div><!-- col-sm-4 -->
   				<div class="col-sm-8">
   					<div class="portfolioFilter clearfix margin-b-80">
-  						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
-  						<a href="#" data-filter=".design"><b>DESIGN</b></a>
-              <a href="#" data-filter=".paintings"><b>PAINTINGS</b></a>
+  						<a href="#" data-filter="*" class="current" class="font-lite-black"><b>ALL</b></a>
+  						<a href="#" data-filter=".design" class="font-lite-black"><b>DESIGN</b></a>
+              <a href="#" data-filter=".paintings" class="font-lite-black"><b>PAINTINGS</b></a>
               <a href="#" data-filter=".pottery"><b>POTTERY</b></a>
   						<a href="#" data-filter=".drawings"><b>DRAWINGS</b></a>
   					</div><!-- portfolioFilter -->
@@ -197,7 +198,7 @@
             <h2 class="heading">Contact</h2>
             <div class="row">
               <div class="col-md-6">
-                <form id="contact-form" method="post" action="#" class="contact-form">
+                <form id="contact-form" method="post" action="mailto:Rachel.a.klose@gmail.com?subject=portfolio" class="contact-form">
                   <div class="controls">
                     <div class="row">
                       <div class="col-sm-6">
@@ -218,7 +219,7 @@
                       <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control">
                     </div>
                     <div class="form-group">
-                      <label for="surname">Your message for us *</label>
+                      <label for="surname">Your message for me *</label>
                       <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
                     </div>
                     <div class="text-center">
@@ -228,9 +229,11 @@
                 </form>
               </div>
               <div class="col-md-6">
+                <!--
                 <p>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed. </p>
                 <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
-                <p class="social"><a href="#" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="#" title="" class="twitter"><i class="fa fa-twitter"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p>
+              -->
+                <p class="social"><a target="_blank" href="https://www.facebook.com/rachel.klose.5" title="" class="facebook"><i class="fa fa-facebook"></i></a><a target="_blank" href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a target="_blank" href="https://www.instagram.com/klose.enough/" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="mailto:Rachel.a.klose@gmail.com?subject=portfolio" title="" class="email"><i class="fa fa-envelope"></i></a></p>
               </div>
             </div>
           </div>
@@ -238,23 +241,21 @@
       </div>
     </section>
 
-    <div id="map"></div>
-    <footer style="background-color: #111;" class="section-inverse">
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211141.0048049111!2d-96.75373019975353!3d32.77268301626759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C+TX!5e0!3m2!1sen!2sus!4v1525849860665" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <footer style="background-color: #111;" class="temp">
       <div class="container">
-        <div class="row copyright">
           <div class="col-md-6">
-            <p>&copy;2017 Your name/company goes here</p>
-          </div>
-          <div class="col-md-6">
-            <p class="credit">Template by <a href="https://bootstrapious.com/e-commerce-templates">Bootstrapious</a></p>
+            <p class="">Template by <a href="https://bootstrapious.com/e-commerce-templates">Bootstrapious</a></p>
             <!-- Please do not remove the backlink to us unless you support the development at https://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :) -->
           </div>
         </div>
       </div>
 
-      <p class="copyright">
+      <p class="">
     			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <a href="https://colorlib.com" target="_blank">Colorlib</a>
     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
     		</p>
 
@@ -277,11 +278,10 @@
     <!-- Sticky + Scroll To scripts for navbar-->
     <script src="js/jquery.sticky.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
-    <!-- google maps-->
+    <!-- google maps
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-
+  -->
     <!-- to use it on your site, generate your own API key for Google Maps and paste it above -->
-    <script src="js/gmaps.js"></script>
     <!-- main script-->
     <script src="js/front.js"></script>
 
@@ -308,16 +308,17 @@
 
 
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      (function(i,s,o,g,r,a,m){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='//www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-DALLAS-TX');ga('send','pageview');
+      ga('create', 'UA-2022525-1', 'auto');ga('send','pageview');
 
-
+-->
 
 
     </script>
