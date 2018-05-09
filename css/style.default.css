@@ -1,3 +1,4 @@
+
 /* ========================================= */
 /* Black and White Template By Bootstrapious.com      */
 /* ========================================= */
@@ -186,11 +187,9 @@ p.social a.email {
   }
 }
 /*
-
 =====================
 NAVBAR
 =====================
-
 */
 .header {
   width: 100%;
@@ -985,4 +984,8 @@ a.list-group-item.active > .badge,
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
+}
+
+.portfolioContainer{
+  width: 95%;
 }
