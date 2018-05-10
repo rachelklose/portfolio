@@ -815,6 +815,12 @@ label {
     margin-right: auto;
   }
 }
+img{
+  height: auto;
+  max-width: 600px;
+
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .text-center-sm {
     text-align: center !important;
