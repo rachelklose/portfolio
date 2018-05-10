@@ -47,9 +47,22 @@
   <body data-spy="scroll" data-target="#navigation" data-offset="120">
 
 
+              <script type="text/javascript">
+              var my_image2 = new Image();
+
+              function preload()
+              {
+                  my_image2.src = 'img/top.png';
+              }
+              // using only the file name, we can take advantage of the preloaded image
+              function use_preloaded_image()
+              {
+                  document.getElementById('rachel').src = 'img/top.png';
+              }
+              </script>
 
     <!-- intro-->
-    <section id="intro" style="background-image: url('img/top.png');" class="intro">
+    <section id="intro rachel" style="background-image: url('img/top.png');" class="intro">
       <div class="overlay"></div>
       <div class="content">
         <div class="container clearfix">
@@ -95,8 +108,11 @@
             <p>Feel free to contact me below through the contact section or through any of the social media links below.</p>
 
           </div>
+
+
+
           <div class="col-md-5 col-md-offset-1">
-            <p><img src="img/rachel.png" alt="" class="img-responsive img-circle"></p>
+            <p><img src="img/rachel.png" alt=""  class="img-responsive img-circle"></p>
           </div>
         </div>
       </div>
